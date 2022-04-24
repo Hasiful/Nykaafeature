@@ -1,0 +1,309 @@
+
+/*===================   fettur  e============ */
+
+.feture_blog_001{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.feture_blog_001_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 50px;
+}
+
+.feture_blog_001_item{
+    cursor: pointer;
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+}
+.feture_blog_001_item:hover {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.feture_blog_001_item_thumbnil{}
+.feture_blog_001_item_thumbnil img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.feture_blog_001_item_caption{
+    padding: 12px 4px;
+    position: relative;
+    border-radius: 0 0 3px 3px;
+    background: #fff;
+    word-wrap: break-word;
+    text-transform: capitalize;
+}
+
+.feture_blog_001_title,
+.feture_blog_001_subtitle{
+    color: #fc2779;
+    margin: 0 4px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.feture_blog_001_subtitle{
+    color: #3f414d  !important;
+    font-size: 15px;
+}
+
+.section_title{}
+.section_title p{
+    margin: 10px auto 5px;
+    color: #3f414d;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.feture_blog_002_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.feture_blog_002_item{
+    position: relative;
+}
+
+.feture_blog_002_item:hover{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.feture_blog_002_item_thumbnil{
+    position: relative;
+    border-radius: 3px;
+}
+.feture_blog_002_item_thumbnil img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.feture_blog_002_item_caption {
+    border-radius: 3px;
+    background: rgba(255,255,255,0.90 );
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+    text-transform: capitalize;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 96%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feture_blog_002_title{
+    display: block;
+    color: #fc2779;
+    margin: 0 4px;
+    font-size: 18px;
+}
+
+.feture_blog_002_subtitle{
+    color: #3f414d;
+    font-size: 16px;
+}
+
+
+
+
+.birthy_section{}
+
+.birthy_section_blog_001{}
+
+
+.birthy_section_blog_001_item{
+    padding: 5px;
+}
+
+.birthy_section_blog_001_item img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.birthy_section_blog_001_item img:hover{
+    box-shadow: 0px 0px 10px rgba(4, 1, 20, 0.6);
+}
+
+
+.catgory_section_001_item{
+    margin-bottom: 20px;
+}
+.catgory_section_001_item:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(4, 1, 20, 0.6);
+    border-radius: 3px;
+}
+.catgory_section_001_item img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.hidden_games_section_001_slider_img img{
+    width: 100%;
+    padding: 5px;
+}
+
+.MUSICFEST_section_007_slider_item img{
+    width: 100%;
+    display: block;
+    padding: 7px;
+}
+
+.editors_section_item{
+    padding: 5px;
+}
+.editors_section_item img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.editors_section_item img:hover{
+    box-shadow: 0px 0px 5px rgba(4, 1, 20, 0.6);
+}
+
+.feture_blog_003_thumbnil_image{
+    margin-bottom: 30px;
+}
+
+.feture_blog_003_thumbnil_image img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.popupstoreis_section_001_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+
+.popupstoreis_section_001_item img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px
+}
+
+.speacialcuration_section_001_thumbnil{
+    max-width: 560px;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    
+}
+.speacialcuration_section_001_thumbnil img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px;
+    height: 100%;
+}
+
+.popupstoreis_section_001_item img:hover{
+    box-shadow: 0px 0px 5px rgba(4, 1, 20, 0.4);
+}
+
+.beauty_advice_001_add{
+    margin-bottom: 50px;
+}
+.beauty_advice_001_add img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.beauty_advice_001_add img:hover{
+    box-shadow: 0px 0px 5px rgba(4, 1, 20, 0.4);
+}
+
+.feture_blog_003_thumbnil_image img:hover{
+    box-shadow: 0px 0px 5px rgba(4, 1, 20, 0.4);
+}
+
+
+/* responsive */
+
+@media(min-width: 580px){
+
+    .feture_blog_001_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media(min-width: 768px){
+    .feture_blog_001_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+@media(min-width: 1060px){
+
+    .feture_blog_001_wrapper{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .feture_blog_002_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .popupstoreis_section_001_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+/* global css */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F3F3F3;
+}
+
+.container {
+    max-width: 1192px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+img{
+    cursor: pointer;
+}
